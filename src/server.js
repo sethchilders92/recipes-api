@@ -13,15 +13,15 @@ const pool = new Pool({
 
 const CONTEXT_PATH = "/v1/recipes";
 
-// app.get(`${CONTEXT_PATH}/health-check`, require('express-healthcheck') ({
-//   healthy: () => {
-//     return {
-//       status: 'UP'
-//     };
-//   }
-// }));
+app.get(`${CONTEXT_PATH}/health-check`, require('express-healthcheck') ({
+  healthy: () => {
+    return {
+      status: 'UP'
+    };
+  }
+}));
 
-app.get(`/`, (req, res) => {
+app.get(`${CONTEXT_PATH}/`, (req, res) => {
   const returnObject = {
     'name': 'Sam\'s Cheese Crisp',
     'description': 'Ugh, this is so freaking delicious',
