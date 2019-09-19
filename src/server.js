@@ -21,7 +21,7 @@ app.get(`${CONTEXT_PATH}/health-check`, require('express-healthcheck') ({
   }
 }));
 
-app.get(`${CONTEXT_PATH}/`, (req, res) => {
+app.get(`/`, (req, res) => {
   const returnObject = {
     'name': 'Sam\'s Cheese Crisp',
     'description': 'Ugh, this is so freaking delicious',
