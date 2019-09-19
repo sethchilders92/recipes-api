@@ -1,6 +1,6 @@
 {
   "name": "recipes-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "S^2 Recipes Api",
   "engines": {
     "node": "10.x"
