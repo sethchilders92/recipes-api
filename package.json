@@ -1,17 +1,15 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "name": "recipes-api",
+  "version": "0.0.0",
+  "description": "S^2 Recipes Api",
   "engines": {
     "node": "10.x"
   },
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
-    "ejs": "^2.5.6",
     "express": "^4.15.2"
   },
   "devDependencies": {
@@ -20,12 +18,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/sethchilders92/recipes-api"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
+  "keywords": [],
   "license": "MIT"
 }
