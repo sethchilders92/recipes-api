@@ -3,7 +3,7 @@ const { Pool } = require('pg');
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 const connectionString = process.env.DATABASE_URL;
 
 const app = express();
