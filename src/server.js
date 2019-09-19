@@ -13,13 +13,13 @@ const pool = new Pool({
 
 const CONTEXT_PATH = "/v1/recipes";
 
-app.get(`${CONTEXT_PATH}/health-check`, require('express-healthcheck') ({
-  healthy: () => {
-    return {
-      status: 'UP'
-    };
-  }
-}));
+// app.get(`${CONTEXT_PATH}/health-check`, require('express-healthcheck') ({
+//   healthy: () => {
+//     return {
+//       status: 'UP'
+//     };
+//   }
+// }));
 
 app.get(`/`, (req, res) => {
   const returnObject = {
