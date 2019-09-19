@@ -1,0 +1,8 @@
+{
+  "name": "Recipes Api",
+  "description": "An API for S^2 Recipes Project",
+  "repository": "https://github.com/sethchilders92/recipes-api",
+  "logo": "",
+  "keywords": [],
+  "image": "heroku/nodejs"
+}
