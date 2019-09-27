@@ -1,19 +1,5 @@
-export class RecipeDTO {
-    name;
-    description;
-    author;
-    ingredients;
-    steps;
-
-    constructor () {
-        this.name = '';
-        this.description = '';
-        this.author = '';
-        this.ingredients = [];
-        this.steps = [];
-    }
-
-    constructor (name, description, author, ingredients, steps) {
+class RecipeDTO {
+    constructor(name, description, author, ingredients, steps) {
         this.name = name;
         this.description = description;
         this.author = author;
@@ -61,3 +47,5 @@ export class RecipeDTO {
         this.steps = steps;
     }
 }
+
+module.exports.RecipeDTO = RecipeDTO;

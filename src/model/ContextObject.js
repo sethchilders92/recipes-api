@@ -1,22 +1,6 @@
 const uuid = require('uuid/v1');
 
 export class ContextObject {
-    transactionId;
-    user;
-    authToken;
-    endpoint;
-    typeOfRequest;
-    body;
-
-    constructor () {
-        this.transactionId = uuid();
-        this.user = null;
-        this.authToken = null;
-        this.endpoint = null;
-        this.typeOfRequest = null;
-        this.body = null;
-    }
-
     constructor(user, authToken, endpoint, typeOfRequest, body) {
         this.transactionId = uuid();
         this.user = user;
