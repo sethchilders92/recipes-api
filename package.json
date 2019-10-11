@@ -15,7 +15,8 @@
     "express": "^4.15.2",
     "express-healthcheck": "^0.1.0",
     "path": "^0.12.7",
-    "pg": "^7.12.1"
+    "pg": "^7.12.1",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "request": "^2.81.0",
